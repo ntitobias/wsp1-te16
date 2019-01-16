@@ -30,10 +30,10 @@ header("Content-type: text/html; charset=utf-8");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>2.1 Tid</title>
 </head>
 <body>
-    <h1>Rubrik</h1>
+    <h1>2.1 Visa datum, månad, tid, etc.</h1>
 <?php
 echo "<p>" . strftime("%c") . "</p>\n";
 echo "<p>" . strftime("%Y-%m-%d") . "</p>\n";
